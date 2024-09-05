@@ -27,7 +27,7 @@ delta_S = 0.1 * S  # ±10% de S
 sensibilidad_n = abs(derivada_parcial_n(Q, n)) * delta_n
 sensibilidad_S = abs(derivada_parcial_S(Q, S)) * delta_S
 
-# Imprimir resultados
+# Imprimir 
 print(f"Flujo nominal Q: {Q:.4f} m³/s")
 print(f"Derivada parcial de Q con respecto a n: {derivada_parcial_n(Q, n):.4f}")
 print(f"Derivada parcial de Q con respecto a S: {derivada_parcial_S(Q, S):.4f}")
